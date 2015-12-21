@@ -92,16 +92,19 @@ textarea {
   margin-left: auto;
   margin-right: auto;
 }
+
 #logo {
   display: inline;
   float: left;
-  width: 50px;
-  height: 50px;
+  width: 350px;
   margin-bottom: 10px;
+  position: absolute;
+  left: 160px;
 }
+
 #content {
   background-image: url(../img/img5.png);
-  height: 2200px;
+  height: 1900px;
   width: 1000px;
   position: absolute;
   top: 50px;
@@ -109,51 +112,40 @@ textarea {
   text-align: center;
   background-repeat: no-repeat;
 }
+
+#content2 {
+  background-color: black;
+  opacity: 0.5;
+  height: 300px;
+  width: 250px;
+  position: absolute;
+  top: 184px;
+  left: 200px;
+  color: white;
+}
+
 #content1 {
   position: absolute;
   top: 700px;
   left: 530px;
   text-align: center;
 }
-/*
-#left_content {
-  width: 593px;
-}
-#right_content {
-  text-align: center;
-  line-height: 400px;
-}
-.float_left {
-  float: left;
-}
-*/
+
 .float_right {
   float: right;
 }
-//.clear {
-  //clear: both;
-//}
+
 #menu li {
   display: inline;
 }
 
 #menu {
-  background-color: red;
   font-size: 20px;
- // padding-left: 10px
+  position: absolute;
+  left: 855px;
+  top: 25px;
+  width: 120px;
 }
-/*
-#content {
-  background-color: green;
-}
-#footer {
-  background-color: green;
-}
-.callout {
-  padding-left: 10px;
-  width: 310px;
-}
-*/
 
 #callout1 {
   padding: 10px;
@@ -162,6 +154,7 @@ textarea {
   top: 775px;
   left:250px;
 }
+
 #callout2 {
   padding: 10px;
   width: 310px;
@@ -169,70 +162,79 @@ textarea {
   top: 775px;
   left: 650px;
 }
-/*
-#callout3 {
-  background-color: cyan;
-}
-*/
+
 ul,li {
   margin: 0px;
   padding-left: 10px;
   list-style-type: none;
 }
+
 h1 {
   position: absolute;
 }
+
 #social {
   position: absolute;
   top: 1225px;
   left: 520px;
 }
-/*
-.boxed {
-  background-color: antique ruby;
-  position: absolute;
-  top: 50px;
-  float: right;
-}
-*/
+
 #facebook {
   position: absolute;
   top: 1300px;
   left: 375px;
 }
+
 #pinterest {
   position: absolute;
   top: 1300px;
   left: 500px;
 }
+
 #twitter {
   position: absolute;
   top: 1300px;
   left: 625px;
 }
+
 #instagram {
   position: absolute;
   top: 1300px;
   left: 750px;
 }
+
 #cta {
   height: 50px;
   width: 100px;
-  background-color: red;
+  background-color: maroon;
   position: absolute;
   top: 1425px;
   left: 575px;
   text-align: center;
+  color: white;
 }
-/*.footer {
-  background-color: gray;
-  height: 400px;
-  width: 700px; 
+
+#cta2 {
+  height: 45px;
+  width: 150px;
+  background-color: maroon;
   position: absolute;
-  top: 1500px;
-  left: 150px;
-}*/
-#footer1{
+  top: 375px;
+  left: 220px;
+  color: white;
+  text-align: center;
+}
+
+#cta3 {
+  background-color: maroon;
+  width: 140px;
+  height: 45px;
+  position: absolute;
+  left: 980px;
+  color: white;
+}
+
+#footer1 {
   position: absolute;
   top: 1500px;
   left: 150px;
@@ -240,6 +242,7 @@ h1 {
   height: 250px;
   width: 360px;
 }
+
 #footer2 {
   position: absolute;
   top: 1500px;
@@ -248,6 +251,7 @@ h1 {
   height: 250px;
   width: 360px;
 }
+
 #footer3 {
   position: absolute;
   top: 1500px;
@@ -256,6 +260,7 @@ h1 {
   height: 250px;
   width: 310px;
 }
+
 #footer4 {
   position: absolute;
   top: 1730px;
