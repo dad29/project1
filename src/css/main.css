@@ -82,7 +82,7 @@ textarea {
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
-}
+}i
 
 /* ==========================================================================
    Author's custom styles
@@ -93,20 +93,27 @@ textarea {
   margin-right: auto;
 }
 #logo {
-  //display: inline;
-  //float: left;
-  //width: 50px;
-  //height: 50px;
+  display: inline;
+  float: left;
+  width: 50px;
+  height: 50px;
   margin-bottom: 10px;
 }
 #content {
-  //background-image: url(../img/img4.png);
-  height: 1500px;
+  background-image: url(../img/img5.png);
+  height: 1800px;
+  width: 1000px;
   position: absolute;
-  top: 200px;
-  //left: 300px;
+  top: 50px;
+  left: 125px;
   text-align: center;
   background-repeat: no-repeat;
+}
+#content1 {
+  position: absolute;
+  top: 700px;
+  left: 530px;
+  text-align: center;
 }
 /*
 #left_content {
@@ -129,12 +136,13 @@ textarea {
 #menu li {
   display: inline;
 }
-/*
+
 #menu {
   background-color: red;
   font-size: 20px;
  // padding-left: 10px
 }
+/*
 #content {
   background-color: green;
 }
@@ -170,7 +178,7 @@ ul,li {
   margin: 0px;
   padding-left: 10px;
 }
-h2 {
+h1 {
   position: absolute;
 }
 #social {
@@ -178,8 +186,34 @@ h2 {
   top: 1225px;
   left: 520px;
 }
-
-
+/*
+.boxed {
+  background-color: antique ruby;
+  position: absolute;
+  top: 50px;
+  float: right;
+}
+*/
+#facebook {
+  position: absolute;
+  top: 1300px;
+  left: 375px;
+}
+#pinterest {
+  position: absolute;
+  top: 1300px;
+  left: 500px;
+}
+#twitter {
+  position: absolute;
+  top: 1300px;
+  left: 625px;
+}
+#instagram {
+  position: absolute;
+  top: 1300px;
+  left: 750px;
+}
 
 
 
