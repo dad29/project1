@@ -87,9 +87,97 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#logo {
+  //display: inline;
+  //float: left;
+  //width: 50px;
+  //height: 50px;
+  margin-bottom: 10px;
+}
+#content {
+  //background-image: url(../img/img4.png);
+  height: 1500px;
+  position: absolute;
+  top: 200px;
+  //left: 300px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+/*
+#left_content {
+  width: 593px;
+}
+#right_content {
+  text-align: center;
+  line-height: 400px;
+}
+.float_left {
+  float: left;
+}
+*/
+.float_right {
+  float: right;
+}
+//.clear {
+  //clear: both;
+//}
+#menu li {
+  display: inline;
+}
+/*
+#menu {
+  background-color: red;
+  font-size: 20px;
+ // padding-left: 10px
+}
+#content {
+  background-color: green;
+}
+#footer {
+  background-color: green;
+}
+.callout {
+  padding-left: 10px;
+  width: 310px;
+}
+*/
 
-
-
+#callout1 {
+  padding: 10px;
+  width: 310px;
+  position: absolute;
+  top: 775px;
+  left:250px;
+}
+#callout2 {
+  padding: 10px;
+  width: 310px;
+  position: absolute;
+  top: 775px;
+  left: 650px;
+}
+/*
+#callout3 {
+  background-color: cyan;
+}
+*/
+ul,li {
+  margin: 0px;
+  padding-left: 10px;
+}
+h2 {
+  position: absolute;
+}
+#social {
+  position: absolute;
+  top: 1225px;
+  left: 520px;
+}
 
 
 
