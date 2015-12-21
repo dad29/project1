@@ -101,7 +101,7 @@ textarea {
 }
 #content {
   background-image: url(../img/img5.png);
-  height: 1800px;
+  height: 2200px;
   width: 1000px;
   position: absolute;
   top: 50px;
@@ -177,6 +177,7 @@ textarea {
 ul,li {
   margin: 0px;
   padding-left: 10px;
+  list-style-type: none;
 }
 h1 {
   position: absolute;
@@ -214,7 +215,56 @@ h1 {
   top: 1300px;
   left: 750px;
 }
-
+#cta {
+  height: 50px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 1425px;
+  left: 575px;
+  text-align: center;
+}
+/*.footer {
+  background-color: gray;
+  height: 400px;
+  width: 700px; 
+  position: absolute;
+  top: 1500px;
+  left: 150px;
+}*/
+#footer1{
+  position: absolute;
+  top: 1500px;
+  left: 150px;
+  background-color: gray;
+  height: 250px;
+  width: 360px;
+}
+#footer2 {
+  position: absolute;
+  top: 1500px;
+  left: 500px;
+  background-color: gray;
+  height: 250px;
+  width: 360px;
+}
+#footer3 {
+  position: absolute;
+  top: 1500px;
+  left: 850px;
+  background-color: gray;
+  height: 250px;
+  width: 310px;
+}
+#footer4 {
+  position: absolute;
+  top: 1730px;
+  left: 150px;
+  text-align: center;
+  background-color: gray;
+  height: 100px;
+  width: 1010px;
+}
 
 
 
